@@ -132,10 +132,6 @@ PRODUCT_PACKAGES += \
 KERNEL_MODULES_INSTALL := dlkm
 KERNEL_MODULES_OUT := $(OUT_DIR)/target/product/lahaina/$(KERNEL_MODULES_INSTALL)/lib/modules
 
-# Lights
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.lights.service
-
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
